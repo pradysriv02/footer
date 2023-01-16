@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto&family=Ubuntu&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: flex-end;
+    min-height: 100vh;
+    
+    justify-content: center;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+  
+    
+}
+img{
+    height: 50px;
+    margin-top: 10rem;
+}
+.column{
+    margin:0 0 40px 0 ;
+    padding: 80px;
+    text-decoration: none;
+}
+.column h3{
+    line-height: 40px;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+ul li{
+    font-size: 0.8rem;
+    margin-top: 5px;
+}
+ul li a {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(162, 156, 156);
+}
+ul li a:hover{
+    color: rgb(86, 83, 83);
+    
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    background-color: rgba(254, 236, 236, 0.804);
+}
+.icons .social{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.4rem;
+    margin-left: 15rem;
+}
+.icons .social i{
+    margin: 20px;
+    color: rgb(10, 63, 20);
+}
+.icons .para1{
+    color:rgb(162, 156, 156);
+}
+.icons .address{
+    position: absolute;
+    right: 250px;
+    color:rgb(162, 156, 156);
+}
